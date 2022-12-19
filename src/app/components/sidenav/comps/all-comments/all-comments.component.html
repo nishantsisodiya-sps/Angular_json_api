@@ -1,0 +1,13 @@
+<h1><b>User's Comments</b></h1>
+<div class="cards">
+    <div class="card shadow" style="width: 18rem;" *ngFor="let comment of comments">
+        <div class="card-body">
+            <div class="id">
+            <h5 class="card-title"><b><u>Post id</u>: </b> <strong style="color: red;">{{comment.postId}}</strong></h5>
+            <p class="card-text"><b><u>Id</u>: </b> <strong style="color: red ;">{{comment.id}}</strong></p>
+        </div>
+            <p class="card-text"><b><u>Comment</u>: </b> <strong style="color:green ;">{{comment.name}}</strong></p>
+            <p class="card-text"><b><u>Body</u>: </b> <strong style="color:blue ;">{{comment.body}}</strong></p>
+        </div>
+    </div>
+</div>

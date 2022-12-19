@@ -1,0 +1,13 @@
+<h1><b>Posts of all users</b></h1>
+<div class="cards">
+    <div class="card shadow" style="width: 18rem;" *ngFor="let post of posts">
+        <div class="card-body">
+            <div class="id">
+            <h5 class="card-title"><b><u>User id</u>: </b> <strong style="color: red;">{{post.userId}}</strong></h5>
+            <h5 class="card-title"><b><u>Post id</u>: </b> <strong style="color: red;">{{post.id}}</strong></h5>
+        </div>
+            <p class="card-text"><b><u>Post</u>: </b> <strong style="color: green ;">{{post.title}}</strong></p>
+            <p class="card-text"><b><u>Body</u>: </b> <strong style="color:blue ;">{{post.body}}</strong></p>
+        </div>
+    </div>
+</div>

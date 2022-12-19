@@ -1,0 +1,15 @@
+.cards{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    margin-bottom: 2%;
+    font-size: larger;
+}
+.id{
+    display: flex;
+    justify-content: space-between;
+}

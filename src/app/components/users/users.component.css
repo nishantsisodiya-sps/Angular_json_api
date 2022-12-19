@@ -1,0 +1,17 @@
+.cards{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.card{
+    margin-bottom: 2%;
+    font-size: larger;
+}
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,45 @@
+
+html, body { height: 100%; 
+    width: 100%;
+    background-color: white;}
+    body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+        background-color: white; };
+        
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+
+
+.container{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+#btnPost{
+    margin-right: 10%;
+}
+.cards{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    margin-bottom: 2%;
+    font-size: larger;
+}
+.id{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#backBtn{
+    position:absolute;
+    right:1%;
+    top: 1%;
+}

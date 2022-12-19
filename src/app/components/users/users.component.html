@@ -1,0 +1,15 @@
+<h1><b>All Users</b></h1>
+
+<div class="cards">
+    <div class="card shadow" style="width: 18rem;" *ngFor="let user of users">
+        <div class="card-body">
+            <h5 class="card-title text-center"><b><u>User id</u>: </b><strong style="color: red;">{{user.id}}</strong></h5>
+            <h3 class="card-text"><b><u>User Name</u>: </b><strong style="color: green ;">{{user.name}}</strong></h3>
+            <h3 class="card-text"><b><u>User Email</u>: </b><strong style="color:blue ;">{{user.email}}</strong></h3>
+            <div class="button">
+            <a [routerLink]="['/posts',user.id]" class="btn btn-outline-danger">Posts</a>
+            <a [routerLink]="['/comments',user.id]" class="btn btn-outline-danger">Comments</a>
+        </div>
+        </div>
+    </div>
+</div>
